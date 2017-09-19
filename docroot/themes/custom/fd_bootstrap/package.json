@@ -1,0 +1,19 @@
+{
+  "name": "fd_bootstrap",
+  "version": "1.0.0",
+  "description": "<!-- @file Instructions for subtheming using the Sass Starterkit. --> <!-- @defgroup sub_theming_sass --> <!-- @ingroup sub_theming --> # Sass Starterkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "css": "node-sass scss/ -o css",
+    "css:watch": "npm run css && node-sass scss/ -wo css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
