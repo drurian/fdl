@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f78704170d95b893925a4eb9887dd70d",
+    "content-hash": "622a530819cab18f1351ef7285103568",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -1131,6 +1131,59 @@
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
             },
             "time": "2017-09-15T10:53:25+00:00"
+        },
+        {
+            "name": "drupal/bootstrap",
+            "version": "dev-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bootstrap",
+                "reference": "5670922dea05fffb6506a6cd5d53546b9fae8df9"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.5+8-dev",
+                    "datestamp": "1498932242",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "markcarver",
+                    "homepage": "https://www.drupal.org/user/501638"
+                },
+                {
+                    "name": "neardark",
+                    "homepage": "https://www.drupal.org/user/661076"
+                },
+                {
+                    "name": "sylus",
+                    "homepage": "https://www.drupal.org/user/339714"
+                },
+                {
+                    "name": "wundo",
+                    "homepage": "https://www.drupal.org/user/25523"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/bootstrap",
+            "support": {
+                "source": "http://cgit.drupalcode.org/bootstrap"
+            },
+            "time": "2017-08-16T17:30:10+00:00"
         },
         {
             "name": "drupal/config_update",
@@ -10359,7 +10412,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/admin_toolbar": 20
+        "drupal/admin_toolbar": 20,
+        "drupal/bootstrap": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
