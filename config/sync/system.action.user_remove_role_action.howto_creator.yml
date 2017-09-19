@@ -1,0 +1,14 @@
+uuid: 628ff900-8a29-4953-8cfd-0a4167694ef2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.howto_creator
+  module:
+    - user
+id: user_remove_role_action.howto_creator
+label: 'Remove the Howto creator role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: howto_creator

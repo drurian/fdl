@@ -1,0 +1,14 @@
+uuid: b00eea0e-a362-4e50-8fc8-05b79ad83dd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.howto_creator
+  module:
+    - user
+id: user_add_role_action.howto_creator
+label: 'Add the Howto creator role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: howto_creator

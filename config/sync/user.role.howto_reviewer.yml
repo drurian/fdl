@@ -1,0 +1,18 @@
+uuid: 6a9c6dfa-0326-4340-b831-2839d130ad93
+langcode: en
+status: true
+dependencies: {  }
+id: howto_reviewer
+label: 'Howto reviewer'
+weight: 8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any howto content'
+  - 'edit any howto content'
+  - 'use draft_published transition'
+  - 'use needs_review_draft transition'
+  - 'use needs_review_published transition'
+  - 'use published_archived transition'
+  - 'use published_published transition'
+  - 'view moderation states'

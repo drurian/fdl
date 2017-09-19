@@ -1,0 +1,21 @@
+uuid: c39795ed-02a9-42c8-af51-335653567331
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fd_res_type
+    - node.type.howto
+  module:
+    - options
+id: node.howto.field_fd_res_type
+field_name: field_fd_res_type
+entity_type: node
+bundle: howto
+label: 'Resource type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

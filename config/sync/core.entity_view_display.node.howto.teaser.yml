@@ -1,0 +1,63 @@
+uuid: 2c0d8007-2981-4051-b1c4-6bd24d7dd618
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.howto.field_fd_featured_img
+    - field.field.node.howto.field_fd_featured_video
+    - field.field.node.howto.field_fd_main
+    - field.field.node.howto.field_fd_res_type
+    - field.field.node.howto.field_fd_summary
+    - field.field.node.howto.field_fd_tags
+    - image.style.large
+    - node.type.howto
+  module:
+    - image
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.howto.teaser
+targetEntityType: node
+bundle: howto
+mode: teaser
+content:
+  field_fd_featured_img:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: content
+    third_party_settings: {  }
+  field_fd_summary:
+    type: text_default
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_fd_tags:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_fd_featured_video: true
+  field_fd_main: true
+  field_fd_res_type: true

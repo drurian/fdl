@@ -1,0 +1,85 @@
+uuid: 57ce15dc-d310-4f09-8298-c5fda9480981
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.howto.field_fd_featured_img
+    - field.field.node.howto.field_fd_featured_video
+    - field.field.node.howto.field_fd_main
+    - field.field.node.howto.field_fd_res_type
+    - field.field.node.howto.field_fd_summary
+    - field.field.node.howto.field_fd_tags
+    - node.type.howto
+  module:
+    - image
+    - options
+    - panelizer
+    - text
+    - user
+    - video_embed_field
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+id: node.howto.default
+targetEntityType: node
+bundle: howto
+mode: default
+content:
+  field_fd_featured_img:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_fd_featured_video:
+    weight: 3
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  field_fd_main:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_fd_res_type:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_fd_summary:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_fd_tags:
+    weight: 6
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

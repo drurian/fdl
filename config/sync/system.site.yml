@@ -1,0 +1,14 @@
+uuid: 2eb3c6d0-1f24-4c59-a96e-7075649f6526
+name: 'Friendly Drupal'
+mail: ngabrieleva@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

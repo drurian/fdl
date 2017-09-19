@@ -1,0 +1,21 @@
+uuid: b56f05fe-5cd5-4ffc-ae2f-11fbaa7b7662
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fd_main
+    - node.type.howto
+  module:
+    - text
+id: node.howto.field_fd_main
+field_name: field_fd_main
+entity_type: node
+bundle: howto
+label: Main
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

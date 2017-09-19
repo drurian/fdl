@@ -1,0 +1,22 @@
+uuid: d4876cb1-33d8-47ea-8c1c-bda42b07d2e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - scheduled_updates
+_core:
+  default_config_hash: bG70W4i5Zfim6iDloX99PvmGPOkbSoVBL0I7S-2o89E
+id: node.scheduled_update
+field_name: scheduled_update
+entity_type: node
+type: entity_reference
+settings:
+  target_type: scheduled_update
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

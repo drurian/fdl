@@ -1,0 +1,14 @@
+uuid: 0dbdf89d-a6a8-4a7e-82ee-4a1ae9c06851
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.howto_reviewer
+  module:
+    - user
+id: user_remove_role_action.howto_reviewer
+label: 'Remove the Howto reviewer role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: howto_reviewer
