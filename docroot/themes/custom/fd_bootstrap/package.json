@@ -11,7 +11,7 @@
   "license": "ISC",
   "scripts": {
     "css": "node-sass scss/ -o css",
-    "css:watch": "npm run css && node-sass scss/ -wo css"
+    "css:watch": "npm run css && node-sass scss/style.scss -wo css/style.css"
   },
   "devDependencies": {
     "node-sass": "^4.5.3"
