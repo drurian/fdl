@@ -7,6 +7,15 @@
 /docroot/profiles/contrib
 /docroot/themes/contrib
 /docroot/sites/default/files
+node_modules
 
 # Ignore Composer-managed dependencies.
 vendor/
+
+# IDE generated files #
+#######################
+.idea
+
+# OS generated files #
+######################
+.DS_Store*
