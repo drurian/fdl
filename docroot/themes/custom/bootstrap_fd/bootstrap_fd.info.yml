@@ -1,0 +1,10 @@
+name: Bootstrap 4 FD Theme
+type: theme
+description: Bootstrap 4 Theme
+package: Other
+core: 8.x
+# Classy vs. Stable as a base theme: https://www.lullabot.com/articles/a-tale-of-two-base-themes-in-drupal-8-core
+base theme: stable
+
+libraries:
+  - bootstrap_fd/global
